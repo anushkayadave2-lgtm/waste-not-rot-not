@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit Local Secrets & Run Artifacts
+# (Do NOT commit secrets.toml if created locally)
+.streamlit/secrets.toml
+
+# Environment Variables & Credentials
+.env
+.env.local
+.env.*
+*.pem
+*.key
+*.cert
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data spreadsheets (Users upload via UI; prevent committing proprietary store data)
+*.csv
+*.xlsx
+*.xls
